@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubra o que é MQTT e como usar a Amazon Web Services para o MQTT">
+    <meta name="author" content="Lucas Leal">
+    <meta name="keywords" content="Atividade, html5, ">
+
+    <title>Meu 5º exercício da lista HTML5</title>
+
+    <link rel="stylesheet" href="./styles5.css">
+</head>
+<body>
+    <h1>O que é MQTT?</h1>
+    <div class="txt">
+        <p>O MQTT é um protocolo de mensagens baseado em padrões, ou conjunto de regras, usado para comunicação de computador para computador. Sensores inteligentes, dispositivos acessórios e outros dispositivos da Internet das Coisas (IoT) normalmente precisam transmitir e receber dados por meio de uma rede com limitação de recursos e largura de banda limitada. Esses dispositivos IoT usam o MQTT para transmissão de dados, pois é fácil de implementar e pode comunicar dados IoT com eficiência. O MQTT oferece suporte a mensagens entre dispositivos para a nuvem e da nuvem para o dispositivo.</p>
+    </div>
+
+    <div class="box">
+        <h2>Por que o protocolo MQTT é importante?</h2>
+        <p>O protocolo MQTT se tornou um padrão para transmissão de dados IoT porque oferece estes benefícios:</p>
+    
+        <p class="title">Leve e eficiente</p>
+        <p>A implementação do MQTT no dispositivo IoT requer recursos mínimos, podendo ser usado até mesmo em pequenos microcontroladores. Por exemplo, uma mensagem de controle MQTT mínima pode ter apenas dois bytes de dados. Os cabeçalhos de mensagens MQTT também são pequenos para que você possa otimizar a largura de banda da rede.</p>
+    
+        <p class="title">Escalável</p>
+        <p>A implementação do MQTT requer uma quantidade mínima de código que consome pouquíssima energia nas operações. O protocolo também tem recursos integrados que oferecem suporte à comunicação com um grande número de dispositivos IoT. Portanto, você pode implementar o protocolo MQTT para se conectar a milhões desses dispositivos.</p>
+    
+        <p class="title">Confiável</p>
+        <p>Muitos dispositivos IoT se conectam em redes celulares não confiáveis com baixa largura de banda e alta latência. O MQTT tem recursos integrados que reduzem o tempo que o dispositivo IoT leva para se reconectar à nuvem. Além disso, define três níveis diferentes de qualidade de serviço para garantir a confiabilidade para casos de uso de IoT: no máximo uma vez (0), pelo menos uma vez (1) e exatamente uma vez (2).</p>
+    
+        <p class="title">Seguro</p>
+        <p>Com o MQTT, os desenvolvedores têm mais facilidade para criptografar mensagens e autenticar dispositivos e usuários usando protocolos de autenticação modernos, como OAuth, TLS1.3, certificados gerenciados pelo cliente etc.</p>
+    
+        <p class="title">Um bom suporte</p>
+        <p>Muitas linguagens, como Python, têm amplo suporte para implementação do protocolo MQTT. Portanto, os desenvolvedores podem implementá-lo rapidamente com codificação mínima em qualquer tipo de aplicação.</p>
+    </div>
+    
+    <div class="txt">
+        <h2>Qual é a história por trás do protocolo MQTT?</h2>
+        <p>O protocolo MQTT foi inventado em 1999 para ser usado no setor de petróleo e gás. Engenheiros precisavam de um protocolo para largura de banda mínima e perda mínima de bateria para monitorar oleodutos via satélite. Inicialmente, o protocolo era conhecido como Message Queuing Telemetry Transport devido ao produto da IBM MQ Series que oferecia suporte a sua fase inicial. Em 2010, a IBM lançou o MQTT 3.1 como um protocolo gratuito e aberto para qualquer pessoa implementar, que foi encaminhado, em 2013, ao órgão de especificação Organization for the Advancement of Structured Information Standards (OASIS) para manutenção. Em 2019, o OASIS lançou uma versão atualizada do MQTT 5. Agora o MQTT não é mais um acrônimo, mas é considerado o nome oficial do protocolo. </p>
+    </div>
+
+    <h3>Referência</h3>
+    <ul>
+        <li><p class="link" onclick="openLink('https://aws.amazon.com/pt/what-is/mqtt/')">AWS</p></li>
+    </ul>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>

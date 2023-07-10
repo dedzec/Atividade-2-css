@@ -1,0 +1,47 @@
+* {
+    font-family: AmazonEmberBold,Helvetica Neue Bold,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+body {
+    margin: 20px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+.txt {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.box {
+    background-color: #FBFBFB;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.link {
+    color: blue;
+    cursor: pointer;
+}
+
+.link:hover {
+    color:chocolate;
+}
+
+.link:active {
+    color:red;
+}
